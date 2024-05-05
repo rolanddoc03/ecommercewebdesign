@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopsphere</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+            <header>
+                <a href="index.html"><h2>Shopsphere</h2></a>
+                <nav>
+                    <a href="#feedback">FEEDBACK</a>
+                    <a href="#about">ABOUT US</a>
+                </nav>
+            </header>
+
+            <div class="payment-form-container">
+                <h2>Payment Form</h2>
+                <form class="payment-form" action="transaction.html" method="post">
+                    <label for="cardNumber">Card Number</label><br>
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter card number" required><br>
+        
+                    <label for="expirationDate">Expiration Date</label><br>
+                    <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required><br>
+        
+                    <label for="cvv">CVV:</label><br>
+                    <input type="number" id="cvv" name="cvv" placeholder="Enter CVV" required><br>
+        
+                    <label for="nameOnCard">Name on Card</label><br>
+                    <input type="text" id="nameOnCard" name="nameOnCard" placeholder="Enter name on card" required><br>
+                    <a href="index.html"><button type="button">CANCEL</button></a>
+                    <input type="submit" value="SUBMIT PAYMENT">
+                </form>
+            </div>
+   
+    <footer>
+        
+            <h3 class="foot">&copy; Shopsphere</h3>
+        
+    </footer>
+
+</body>
+</html>
